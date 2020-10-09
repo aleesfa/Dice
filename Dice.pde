@@ -44,30 +44,30 @@ void setup()
           rect(XValue,YValue,51,51,7); 
           fill(0);
           if(numDots == 1)
-          circle(XValue +25, YValue + 25, 10);
+          ellipse(XValue +25, YValue + 25, 10, 10);
           if(numDots == 2 || numDots == 3)
           {
-            circle(XValue +38.5, YValue + 38.5, 10);
-            circle(XValue +12.5, YValue + 12.5, 10);
+            ellipse(XValue +38.5, YValue + 38.5, 10, 10);
+            ellipse(XValue +12.5, YValue + 12.5, 10, 10);
             if(numDots == 3)
             {
-              circle(XValue +25, YValue + 25, 10);
+              ellipse(XValue +25, YValue + 25, 10, 10);
             }
           }
           if(numDots == 4 || numDots == 5 || numDots == 6)
           {
-            circle(XValue +38.5, YValue + 38.5, 10);
-            circle(XValue +12.5, YValue + 12.5, 10);
-            circle(XValue + 12.5, YValue + 38.5, 10);
-            circle(XValue + 38.5, YValue + 12.5, 10);
+            ellipse(XValue +38.5, YValue + 38.5, 10, 10);
+            ellipse(XValue +12.5, YValue + 12.5, 10, 10);
+            ellipse(XValue + 12.5, YValue + 38.5, 10, 10);
+            ellipse(XValue + 38.5, YValue + 12.5, 10, 10);
             if(numDots == 5)
             {
-              circle(XValue +25, YValue + 25, 10);
+              ellipse(XValue +25, YValue + 25, 10, 10);
             }
             if(numDots == 6)
             {
-              circle(XValue + 12.5, YValue + 25.5, 10);
-              circle(XValue + 38.5, YValue + 25.5, 10);
+              ellipse(XValue + 12.5, YValue + 25.5, 10, 10);
+              ellipse(XValue + 38.5, YValue + 25.5, 10, 10);
             }
           } 
       }
